@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.19+commit.7dd6d404"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "address",
+						"name": "_address",
+						"type": "address"
+					}
+				],
+				"name": "register",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"notice": "THIS IS AN EXAMPLE CONTRACT THAT USES HARDCODED VALUES FOR CLARITY. THIS IS AN EXAMPLE CONTRACT THAT USES UN-AUDITED CODE. DO NOT USE THIS CODE IN PRODUCTION.",
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"ccip 2024/ICrossChainNameServiceLookup.sol": "ICrossChainNameServiceLookup"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"ccip 2024/ICrossChainNameServiceLookup.sol": {
+			"keccak256": "0x7a8e05576f9da0b43a811f5ff145b49427a5aad754355b098a899ce74a69de2c",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://3afd0d552907c108c7261967fed78f6250825177337e8a07f6f2bc94ff966b80",
+				"dweb:/ipfs/QmNSiUPesknVwsH3UUYRaT2tXVpsbrMSixMeq15zD7difL"
+			]
+		}
+	},
+	"version": 1
+}
